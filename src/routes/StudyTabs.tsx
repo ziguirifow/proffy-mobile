@@ -1,9 +1,9 @@
 import { Ionicons } from "@expo/vector-icons";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
+import { Platform } from "react-native";
 import Favorites from "../pages/Favorites";
 import TeacherList from "../pages/TeacherList";
-import { Platform } from "react-native";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
